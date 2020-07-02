@@ -8,6 +8,7 @@ public class ConsoleCoding{
 			System.out.println("Choices :");
 			System.out.println("[0] Two Sum.");
 			System.out.println("[1] Add Number.");
+			System.out.println("[2] Longest Substring Length.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -19,6 +20,9 @@ public class ConsoleCoding{
 					break;
 				case 1 : 
 						new AddTwoNumber();
+					break;
+				case 2 : 
+						new LongestSubstring();
 					break;
 				default : 
 					System.out.println("Option not available");
