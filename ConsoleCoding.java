@@ -10,6 +10,7 @@ public class ConsoleCoding{
 			System.out.println("[1] Add Number.");
 			System.out.println("[2] Longest Substring Length.");
 			System.out.println("[3] Median of two Arrays.");
+			System.out.println("[4] Largest Palindrome. ");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -27,6 +28,9 @@ public class ConsoleCoding{
 					break;
 				case 3 : 
 						new MedianTwoArray();
+					break;
+				case 4 : 
+						new LargestPalindrome();
 					break;
 				default : 
 					System.out.println("Option not available");
