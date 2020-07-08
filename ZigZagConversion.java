@@ -15,7 +15,7 @@ public class ZigZagConversion{
 		try{
 			System.out.println("ZigZag Conversion");
 			System.out.println("==========");
-			System.out.println("Given a string and row get it's value on a zigzag pattern according to the number of rows.")
+			System.out.println("Given a string and row get it's value on a zigzag pattern according to the number of rows.");
 			System.out.println("==========");
 
 			Scanner sc = new Scanner(System.in);
