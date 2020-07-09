@@ -13,6 +13,7 @@ public class ConsoleCoding{
 			System.out.println("[4] Largest Palindrome.");
 			System.out.println("[5] ZigZag Conversion.");
 			System.out.println("[6] Reverse Integer.");
+			System.out.println("[7] String to Integer.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -39,6 +40,9 @@ public class ConsoleCoding{
 					break;
 				case 6 :
 						new ReverseInteger();
+					break;
+				case 7 :
+						new StringToInteger();
 					break;
 				default : 
 					System.out.println("Option not available");
