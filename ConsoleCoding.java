@@ -18,6 +18,7 @@ public class ConsoleCoding{
 			System.out.println("[9] Regular Expression Matching.");
 			System.out.println("[10] Container with Most Water.");
 			System.out.println("[11] Integer to Roman.");
+			System.out.println("[12] Roman to Integer");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -59,7 +60,10 @@ public class ConsoleCoding{
 					break;
 				case 11 : 
 						new IntegerToRoman();
-					break; 
+					break;
+				case 12 : 
+						new RomanToInteger();
+					break;  
 				default : 
 					System.out.println("Option not available");
 			}
