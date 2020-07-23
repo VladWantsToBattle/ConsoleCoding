@@ -20,6 +20,8 @@ public class ConsoleCoding{
 			System.out.println("[11] Integer to Roman.");
 			System.out.println("[12] Roman to Integer.");
 			System.out.println("[13] Longest Common Prefix.");
+			System.out.println("[14] Sum of Three.");
+			System.out.println("[15] Sum of Three Closest.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -68,6 +70,12 @@ public class ConsoleCoding{
 				case 13 : 
 						new LongestCommonPrefix();
 					break;  
+				case 14 : 
+						new SumOfThree();
+					break;
+				case 15 : 
+						new SumOfThreeClosest();
+					break;
 				default : 
 					System.out.println("Option not available");
 			}
