@@ -22,6 +22,7 @@ public class ConsoleCoding{
 			System.out.println("[13] Longest Common Prefix.");
 			System.out.println("[14] Sum of Three.");
 			System.out.println("[15] Sum of Three Closest.");
+			System.out.println("[16] Letter Combination of a Phone Number.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -75,6 +76,9 @@ public class ConsoleCoding{
 					break;
 				case 15 : 
 						new SumOfThreeClosest();
+					break;
+				case 16 : 
+						new LetterCombinationOfAPhoneNumber();
 					break;
 				default : 
 					System.out.println("Option not available");
