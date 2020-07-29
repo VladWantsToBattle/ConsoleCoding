@@ -25,6 +25,7 @@ public class ConsoleCoding{
 			System.out.println("[16] Letter Combination of a Phone Number.");
 			System.out.println("[17] Remove the Nth node from End of List.");
 			System.out.println("[18] Valid Parentheses.");
+			System.out.println("[19] Merge Two Sorted List.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -87,6 +88,9 @@ public class ConsoleCoding{
 					break;
 				case 18 : 
 						new ValidParentheses();
+					break;
+				case 19 : 
+						new MergeTwoSortedList();
 					break;
 				default : 
 					System.out.println("Option not available");
