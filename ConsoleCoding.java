@@ -27,6 +27,7 @@ public class ConsoleCoding{
 			System.out.println("[18] Valid Parentheses.");
 			System.out.println("[19] Merge Two Sorted List.");
 			System.out.println("[20] Generate Parentheses.");
+			System.out.println("[21] MergeKSorterLists.");
 
 			System.out.println("'Welcome', Please choose a item from the choices above : ");
 			Scanner sc = new Scanner(System.in);
@@ -96,6 +97,9 @@ public class ConsoleCoding{
 				case 20 :
 						new GenerateParentheses();
 					break;
+				case 21 : 
+						new MergeKSorterLists();
+					break; 
 				default : 
 					System.out.println("Option not available");
 			}
